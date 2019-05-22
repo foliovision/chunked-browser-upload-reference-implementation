@@ -1,4 +1,7 @@
 <?php
+
+error_reporting(false);
+
   // common.php houses common setup and environment setup
   require("common.php");
 

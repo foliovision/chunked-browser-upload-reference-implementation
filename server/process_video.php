@@ -4,6 +4,7 @@
 
   if (isset($_POST["guid"])) {
     $multi["guid"] = $_POST["guid"];
+    $multi["ingest_recipe_id"] = $_POST["ingest_recipe_id"];
     $multi["title"] = "PHP Upload example";
 
     $video = VzaarApi\Video::create($multi);
